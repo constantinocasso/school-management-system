@@ -1,0 +1,21 @@
+from django.contrib import admin
+from .models import Escola, AnoLetivo, Classe, Turma, SalaAula, Disciplina, Prova, Professor, ProfessorTurma, Encarregado, Aluno, Nota, CriterioAvaliacao, Material, Mensagem, PlanoPedagogico, ExameEspecial, EscolaTransferencia
+
+admin.site.register(Escola)
+admin.site.register(AnoLetivo)
+admin.site.register(Classe)
+admin.site.register(Turma)
+admin.site.register(SalaAula)
+admin.site.register(Disciplina)
+admin.site.register(Prova)
+admin.site.register(Professor)
+admin.site.register(ProfessorTurma)
+admin.site.register(Encarregado)
+admin.site.register(Aluno)
+admin.site.register(Nota)
+admin.site.register(CriterioAvaliacao)
+admin.site.register(Material)
+admin.site.register(Mensagem)
+admin.site.register(PlanoPedagogico)
+admin.site.register(ExameEspecial)
+admin.site.register(EscolaTransferencia)
